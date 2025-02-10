@@ -1,38 +1,68 @@
-.App {
+*{
+  box-sizing: border-box;
+}
+
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: beige;
+}
+
+.badge{
+  padding: 0.3em 1em;
+  font-size: 1.5em;
+  font-family: "Inherit";
+  background-color: yellowgreen;
+  margin-bottom: 0.5em;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.badge.square{
+  border-radius: 5px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.badge.pill{
+  border-radius: 20px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.badge.gray{
+  color: #1F2937;
+  background-color: #F3F4F6;
 }
 
-.App-link {
-  color: #61dafb;
+.badge.red{
+  color: #991B1B;
+  background-color: #FEE2E2;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.badge.yellow{
+  color: #92400E;
+  background-color: #FEF3C7;
+}
+
+.badge.green{
+  color: #065F46;
+  background-color: #D1FAE5;
+}
+
+.badge.blue{
+  color: #1E40AF;
+  background-color: #DBEAFE;
+}
+
+.badge.indigo{
+  color: #3730A3;
+  background-color: #E0E7FF;
+}
+
+.badge.purple{
+  color: #5B21B6;
+  background-color: #EDE9FE;
+}
+
+.badge.pink{
+  color: #9D174D;
+  background-color: #FCE7F3;
 }
