@@ -13,7 +13,8 @@ body{
 .badge{
   padding: 0.3em 1em;
   font-size: 1.5em;
-  font-family: "Inherit";
+  max-width: 200px;
+  font-family: "Inter";
   background-color: yellowgreen;
   margin-bottom: 0.5em;
   text-align: center;
@@ -65,4 +66,107 @@ body{
 .badge.pink{
   color: #9D174D;
   background-color: #FCE7F3;
+}
+
+
+/* Banner */
+
+.banner{
+  font-family: "Inter";
+  padding: 1em 1.5em;
+  width: 600px;
+  font-size: 0.6em;
+  background-color: #EFF6FF;
+  display: flex;
+  flex-direction: column;
+}
+
+.banner > .header{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.logo, .title{
+  margin-right: 0.8em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.banner > .banner-content{
+  margin-top: 0.8em;
+  margin-left: 1.8em;
+}
+
+/* Banner Success */
+
+.banner.success{
+  background-color: #ECFDF5;
+}
+
+.logo.success{
+  color: #34D399;
+}
+
+.title.success{
+  color: #065F46;
+}
+
+.banner-content.success{
+  color: #047857;
+}
+
+/* Banner Warning */
+
+.banner.warning{
+  background-color: #FFFBEB;
+}
+
+.logo.warning{
+  color: #FBBF24;
+}
+
+.title.warning{
+  color: #92400E;
+}
+
+.banner-content.warning{
+  color: #B45309;
+}
+
+/* Banner Error */
+
+.banner.error{
+  background-color: #FEF2F2;
+}
+
+.logo.error{
+  color: #F87171;
+}
+
+.title.error{
+  color: #92400E;
+}
+
+.banner-content.error{
+  color: #B45309;
+}
+
+/* Banner Neutral */
+
+.banner.neutral{
+  background-color: #EFF6FF;
+}
+
+.logo.neutral{
+  color: #60A5FA;
+}
+
+.title.neutral{
+  color: #1E40AF;
+}
+
+.banner-content.neutral{
+  color: #1C51B9;
 }

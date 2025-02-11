@@ -4,3 +4,7 @@
 Component 1
 
 1. A badge that accepts a children of text also a prop of color and shape
+2. Banners:
+- Single line and Multiline
+- accepts: type of banner, and a children of text.
+- Make sure that the banner is adjusted accordingly if text is not given. 
